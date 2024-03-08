@@ -1,0 +1,94 @@
+ .logo {
+     position: absolute;
+     font-size: 1.3em;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     left: 50px;
+     top: 25px;
+
+     overflow: hidden;
+
+ }
+
+ /* .logoJ{
+    width:16px;
+} */
+
+ #logoJ {
+     width: 16px;
+     transform: translateX(-100%);
+ }
+
+ #logoName {
+    
+     font-size: 30px;
+
+    display: inline-block;
+
+ }
+
+
+ .logoMoveLeft {
+     animation: logoMoveLeft 0.2s forwards;
+     transform: translateX(0%);
+ }
+
+ .logoMoveRight {
+     animation: logoMoveRight 0.2s forwards;
+     animation-delay: 0.5s;
+     
+ }
+
+ .nameMoveLeft {
+     animation: nameMoveLeft 0.5s forwards;
+ }
+
+ .nameMoveRight {
+     animation: nameMoveRight 0.5s forwards;
+     animation-delay:0.2s;
+     transform: translateX(-120%);
+ }
+
+
+ @keyframes nameMoveLeft {
+     0% {
+         transform: translateX(0);
+     }
+
+     100% {
+         transform: translateX(-120%);
+
+     }
+ }
+
+ @keyframes nameMoveRight {
+     0% {
+         transform: translateX(-120%);
+         
+     }
+
+     100% {
+         transform: translateX(0);
+         
+     }
+ }
+
+ @keyframes logoMoveLeft {
+     0% {
+         transform: translateX(0);
+     }
+
+     100% {
+         transform: translateX(-100%);
+
+     }
+ }
+
+ @keyframes logoMoveRight {
+     0% {
+         transform: translateX(-100%);
+     }
+
+     100% {
+         transform: translateX(0);
+     }
+ }
