@@ -9,23 +9,15 @@
 
  }
 
- /* .logoJ{
-    width:16px;
-} */
-
  #logoJ {
      width: 16px;
-     transform: translateX(-100%);
+     transform: translateX(-200%);
  }
 
  #logoName {
-    
-     font-size: 30px;
-
-    display: inline-block;
-
+     font-size: 20px;
+     margin-left: -15px;
  }
-
 
  .logoMoveLeft {
      animation: logoMoveLeft 0.2s forwards;
@@ -35,7 +27,7 @@
  .logoMoveRight {
      animation: logoMoveRight 0.2s forwards;
      animation-delay: 0.5s;
-     
+
  }
 
  .nameMoveLeft {
@@ -44,8 +36,8 @@
 
  .nameMoveRight {
      animation: nameMoveRight 0.5s forwards;
-     animation-delay:0.2s;
-     transform: translateX(-120%);
+     animation-delay: 0.2s;
+     transform: translateX(-150%);
  }
 
 
@@ -55,20 +47,20 @@
      }
 
      100% {
-         transform: translateX(-120%);
+         transform: translateX(-150%);
 
      }
  }
 
  @keyframes nameMoveRight {
      0% {
-         transform: translateX(-120%);
-         
+         transform: translateX(-150%);
+
      }
 
      100% {
          transform: translateX(0);
-         
+
      }
  }
 
@@ -78,14 +70,14 @@
      }
 
      100% {
-         transform: translateX(-100%);
+         transform: translateX(-200%);
 
      }
  }
 
  @keyframes logoMoveRight {
      0% {
-         transform: translateX(-100%);
+         transform: translateX(-200%);
      }
 
      100% {

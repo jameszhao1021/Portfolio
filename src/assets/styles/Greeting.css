@@ -1,0 +1,99 @@
+h1 {
+    font-weight: 600;
+    color: #000000;
+  }
+  
+h1 span span {
+    position: relative;
+    animation: move-text-color 0.75s forwards;
+    bottom: -1em;
+    opacity: 0;
+  }
+  
+  @keyframes move-text-color {
+    0% {
+      bottom: -0.2em;
+      opacity: 1;
+      color: #1661a3;
+    }
+    
+    50% {
+      bottom: 0.2em;
+      color: #3ab366;
+    }
+  
+    100% {
+      bottom: 0;
+      opacity: 1;
+      color: #000000;
+    }
+  }
+
+
+  @media (min-width: 3100px) {
+    .firstLine, .secondLine{
+        font-size: 90px;
+        
+    }
+    .thirdLine{
+      font-size: 60px;
+    }
+  }
+  @media (max-width: 3100px) {
+    .firstLine, .secondLine{
+        font-size: 80px;
+        
+    }
+    .thirdLine{
+      font-size: 54px;
+    }
+  }
+  @media (max-width: 2850px) {
+    .firstLine, .secondLine{
+        font-size: 70px;
+        
+    }
+    .thirdLine{
+      font-size: 47px;
+    }
+  }
+
+  @media (max-width: 2500px) {
+    .firstLine, .secondLine{
+        font-size: 60px;
+        
+    }
+    .thirdLine{
+      font-size: 40px;
+    }
+  }
+
+  @media (max-width: 2200px) {
+    .firstLine, .secondLine{
+        font-size: 50px;
+        
+    }
+    .thirdLine{
+      font-size: 33px;
+    }
+  }
+
+  @media (max-width: 1800px) {
+    .firstLine, .secondLine{
+        font-size: 40px;
+        
+    }
+    .thirdLine{
+      font-size: 27px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .firstLine, .secondLine{
+        font-size: 30px;
+        
+    }
+    .thirdLine{
+      font-size: 20px;
+    }
+  }
