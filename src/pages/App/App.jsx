@@ -3,7 +3,7 @@ import Home from '../HomePage/Home';
 import TravelBlog from '../TravelBlogPage/TravelBlog';
 import Roulette from '../RoulettePage/Roulette';
 import PlantDiary from '../PlantDiaryPage/PlantDiary'
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, Navigate } from 'react-router-dom';
 import React from 'react';
 import { useState, useRef, useEffect } from 'react';
 import Header from "../../components/Header/Header";
@@ -26,6 +26,10 @@ function App() {
     // Update isOn state based on the visibility
     setIsGreeting(isGreetingInView);
   }, [isGreetingInView]);
+
+  // if (!isHomeRoute) {
+  //   return <Navigate to="/home" />;
+  // }
 
   return (
     <div className='appContainer'>
