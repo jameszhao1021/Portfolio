@@ -1,0 +1,35 @@
+button.projectButton {
+    padding:7px 10px;
+    width: 100px;
+    background: linear-gradient(to left, #ebebeb 50%, #bf7e04 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    cursor: pointer;
+    transition: all ease .3s;
+    border:1px solid #272020;
+    border-radius: 10px; 
+  }
+  
+  button.projectButton:hover {
+    background-position: left bottom;
+    color: white;
+  }
+
+
+@media (min-width: 1600px) {
+  .projectContainer {
+      min-height: 400px;
+  }
+}
+
+@media (min-width: 1900px) {
+  .projectContainer {
+      min-height: 450px;
+  }
+}
+
+@media (min-width: 2200px) {
+  .projectContainer {
+      min-height: 500px;
+  }
+}
