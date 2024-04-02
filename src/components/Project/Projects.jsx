@@ -1,8 +1,5 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import travelblog from '../../assets/images/travelblog.png'
-import rouletteGif from '../../assets/images/roulette.gif'
-import plantdiary from '../../assets/images/plantdiary.png'
 import travelDemo from '../../assets/images/travelDemo.gif'
 import rouletteDemo from '../../assets/images/rouletteDemo.gif'
 import plantDemo from  '../../assets/images/plantDemo.gif'
