@@ -61,7 +61,7 @@ function PlantDiary({ isGreeting, greetingRef }) {
           <Link to='https://github.com/jameszhao1021/Plant-Diary' target='_blank'>
             <button className='btn btn-secondary'>GitHub</button>
           </Link>
-          <Link to='https://jameszhao1021.github.io/Roulette-Game/' target='_blank'>
+          <Link to='https://plant-diary-520d76e24169.herokuapp.com//' target='_blank'>
             <button className='btn btn-secondary'>Live Show</button>
           </Link>
           <a href="/">
