@@ -27,7 +27,9 @@ export default function Projects({ projectTargetRef }) {
                      <h3>Travel Blog</h3>
                      <p className='fs-4'>Travel Blog is a MERN stack project, allowing users to create travel blogs and pictures, as well as view others blogs and leave comments. Explore the websites and get your travel inspirations!</p>
                      <div className='d-flex gap-4'>
+                        <Link to='https://travel-wikkimedia-e201bd728fb6.herokuapp.com/' target='_blank'>
                         <button className='projectButton liveShow'>Live Show</button>
+                        </Link>
                         <a href="/travelblog">
                            <button className='projectButton'>Details</button>
                         </a>
@@ -40,12 +42,12 @@ export default function Projects({ projectTargetRef }) {
                      <h3>Plant Diary</h3>
                      <p className='fs-4'>Plant Diary is an Express-based project with crud features fulfiled by AJAX and JQuery. It is designed for plant enthusiasts and nature lovers, start to record the growth of your plants with Plant Diary!</p>
                      <div className='d-flex gap-4'>
+                        <Link to='https://plant-diary-520d76e24169.herokuapp.com/' target='_blank'>
                         <button className='projectButton liveShow'>Live Show</button>
+                        </Link>
                         <a href="/plantdiary">
                            <button className='projectButton'>Details</button>
-
                         </a>
-
                      </div>
                   </div>
                   <div
