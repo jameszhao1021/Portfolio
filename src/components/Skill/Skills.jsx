@@ -83,11 +83,11 @@ function Skills({aboutTargetRef, contactTargetRef}) {
                Django
             </div>
          </motion.div>
-         <p className="row col-xl-9 col-lg-12 px-4 fs-4 d-flex">
+         <div className="row col-xl-9 col-lg-12 px-4 fs-4 d-flex">
             <span className="p-0">Please feel free to follow my <a href="https://www.linkedin.com/in/james-zhao-62a87b143/" target='_blank' style={{color:'#000', fontStyle:'italic'}}>Linkedin</a> or contact me directly. 
              <div className="btn  btn-secondary ms-2" onClick={handleContactScrollDown}>Contact</div>
             </span>
-         </p>
+         </div>
       </div>
 
    );
