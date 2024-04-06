@@ -1,7 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import plantDiary from '../../assets/images/plantDiary.png'
-
 import SplitText from '../../components/SplitText'
 import expressIcon from "../../assets/images/expressIcon.png"
 import nodeJSIcon from "../../assets/images/nodeIcon.png"
@@ -58,12 +56,12 @@ function PlantDiary({ isGreeting, greetingRef }) {
         </div>
         <h2>Quick Links</h2>
         <div className='d-flex gap-3'>
-          <Link to='https://github.com/jameszhao1021/Plant-Diary' target='_blank'>
+          <a href='https://github.com/jameszhao1021/Plant-Diary' target='_blank'>
             <button className='btn btn-secondary'>GitHub</button>
-          </Link>
-          <Link to='https://plant-diary-520d76e24169.herokuapp.com' target='_blank'>
+          </a>
+          <a href='https://plant-diary-520d76e24169.herokuapp.com' target='_blank'>
             <button className='btn btn-secondary'>Live Show</button>
-          </Link>
+          </a>
           <a href="/">
             <button className='btn btn-secondary'>Go Back</button>
           </a>

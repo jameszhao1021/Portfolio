@@ -33,6 +33,9 @@ function Skills({aboutTargetRef, contactTargetRef}) {
             Hi, I am James Zhao, a full-stack developer proficient in multiple programming languages and techniques. I have engaged with various industry-based projects and am keen to explore in the fields of front end and back end development. I expect to share innovative ideas with technology enthusiasts and learn cutting-edge techniques to address complex challenges.
             <br />
             <br />
+            My interest in software engineering and full stack development was sparked during my time serving as an overseas educational consultant, where I had intensive interactions with students with IT backgrounds. Despite my busy schedule, I took the initiative to self-learn multiple programming techniques, including React, Python, and JavaScript, and proactively completed several projects. This experience further solidified my determination to pursue a career in technology. Seeking to gain a comprehensive understanding of the latest techniques applied in real-world workplaces, I enrolled in the Software Engineering Immersive Course provided by the General Assembly, where I systematically learned various front-end and back-end programming languages and meticulously completed multiple projects.
+            <br />
+            <br />
             Techniques I have engaged with:
          </p>
 

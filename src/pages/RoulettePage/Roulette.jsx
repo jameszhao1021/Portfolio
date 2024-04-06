@@ -1,10 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import travelwikkimedia from '../../assets/images/travelblog.png'
 import '../RoulettePage/Roulette.css'
 import SplitText from '../../components/SplitText'
 import reactIcon from "../../assets/images/reactIcon.png"
-import mongoIcon from "../../assets/images/mongoIcon.png"
 import cssIcon from "../../assets/images/cssIcon.png"
 import roulette from '../../assets/images/roulette.png'
 
@@ -41,12 +38,12 @@ function Roulette({ isGreeting, greetingRef }) {
                 </div>
                 <h2>Quick Links</h2>
                 <div className='d-flex gap-3'>
-                    <Link to='https://github.com/jameszhao1021/Roulette-Game' target='_blank'>
+                    <a href='https://github.com/jameszhao1021/Roulette-Game' target='_blank'>
                         <button className='btn btn-secondary'>GitHub</button>
-                    </Link>
-                    <Link to='https://jameszhao1021.github.io/Roulette-Game/' target='_blank'>
+                    </a>
+                    <a href='https://jameszhao1021.github.io/Roulette-Game/' target='_blank'>
                         <button className='btn btn-secondary'>Live Show</button>
-                    </Link>
+                    </a>
                     <a href="/">
                         <button className='btn btn-secondary'>Go Back</button>
                     </a>

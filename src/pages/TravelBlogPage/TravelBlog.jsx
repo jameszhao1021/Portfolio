@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import travelwikkimedia from '../../assets/images/travelblog.png'
 import '../TravelBlogPage/TravelBlog.css'
 import SplitText from '../../components/SplitText'
@@ -45,12 +44,12 @@ function TravelBlog({ isGreeting, greetingRef }) {
                 </div>
                 <h2>Quick Links</h2>
                 <div className='d-flex gap-3'>
-                    <Link to='https://github.com/jameszhao1021/travel-blog' target='_blank'>
+                    <a href='https://github.com/jameszhao1021/travel-blog' target='_blank'>
                     <button className='btn btn-secondary'>GitHub</button>
-                    </Link>
-                    <Link to='https://travel-wikkimedia-e201bd728fb6.herokuapp.com/' target='_blank'>
+                    </a>
+                    <a href='https://travel-wikkimedia-e201bd728fb6.herokuapp.com/' target='_blank'>
                     <button className='btn btn-secondary'>Live Show</button>
-                    </Link>
+                    </a>
                     <a href="/">  
                         <button className='btn btn-secondary'>Go Back</button>
                     </a>
