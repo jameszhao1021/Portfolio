@@ -19,6 +19,7 @@ const Header = ({aboutTargetRef, projectTargetRef, contactTargetRef}) => {
   }
   
   return (
+    
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top px-3">
       <div className="container-fluid overflow-hidden">
         <Logo />

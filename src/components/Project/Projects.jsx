@@ -2,6 +2,7 @@ import { easeInOut, motion } from 'framer-motion';
 import travelDemo from '../../assets/images/travelDemo.gif'
 import rouletteDemo from '../../assets/images/rouletteDemo.gif'
 import plantDemo from '../../assets/images/plantDemo.gif'
+import netmallDemon from '../../assets/images/netmallDemo.gif'
 import '../Project/Projects.css'
 
 export default function Projects({ projectTargetRef }) {
@@ -15,21 +16,43 @@ export default function Projects({ projectTargetRef }) {
                whileInView={{ rotateY: 0, transition: { duration: 0.7 } }}
             >PROJECTS</motion.h1>
             <div className=' col-xl-10'>
-               <motion.div className='projectContainer row  d-flex justify-content-evenly mt-2'
+            <motion.div className='projectContainer row  d-flex justify-content-evenly mt-2'
                   initial={{ translateY: -100, opacity: 0.1 }}
                   whileInView={{ translateY: 0, opacity: 1, transition: { duration: 0.4, ease: easeInOut } }}
                >
                   <div
                      className='col-lg-5 card'
-                     style={{ backgroundImage: `url(${travelDemo})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
+                     style={{ backgroundImage: `url(${netmallDemon})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
                   >
                   </div>
                   <div
                      className='col-lg-5 card align-items-center justify-content-center gap-2 p-4 bg-transparent border-0'
 
                   >
-                     <h3>Travel Blog</h3>
-                     <p className='fs-4'>Travel Blog is a MERN stack project, allowing users to create travel blogs and pictures, as well as view others blogs and leave comments. Explore the websites and get your travel inspirations!</p>
+                     <h3>NetMall</h3>
+                     <p className='fs-4'>NetMall is a multi-vendor e-commerce platform created with the Django REST Framework. You can act as a buyer to buy a wide variety of products or as a seller to list, edit and delete your products.</p>
+                     <div className='d-flex gap-4'>
+                        <a href='https://net-mall-41b5566731fe.herokuapp.com/' target='_blank'>
+                           <button className='projectButton liveShow'>Live Show</button>
+                        </a>
+                        <a href="/netmall">
+                           <button className='projectButton'>Details</button>
+                        </a>
+
+                     </div>
+                  </div>
+               </motion.div>
+               <motion.div className='projectContainer row  d-flex justify-content-evenly mt-2'
+                  initial={{ translateY: -100, opacity: 0.1 }}
+                  whileInView={{ translateY: 0, opacity: 1, transition: { duration: 0.4, ease: easeInOut } }}
+               >
+                 
+                  <div
+                     className='col-lg-5 card align-items-center justify-content-center gap-2 p-4 bg-transparent border-0'
+
+                  >
+                     <h3>Travel WikkiMedia</h3>
+                     <p className='fs-4'>Travel WikkiMedia is a MERN stack project, allowing users to create travel blogs and pictures, as well as view others blogs and leave comments. Explore the websites and get your travel inspirations!</p>
                      <div className='d-flex gap-4'>
                         <a href='https://travel-wikkimedia-e201bd728fb6.herokuapp.com/' target='_blank'>
                            <button className='projectButton liveShow'>Live Show</button>
@@ -40,11 +63,22 @@ export default function Projects({ projectTargetRef }) {
 
                      </div>
                   </div>
+                  <div
+                     className='col-lg-5 card'
+                     style={{ backgroundImage: `url(${travelDemo})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
+                  >
+                  </div>
                </motion.div>
                <motion.div className='projectContainer row  d-flex justify-content-evenly  mt-5'
                   initial={{ translateY: -100, opacity: 0.1 }}
                   whileInView={{ translateY: 0, opacity: 1, transition: { duration: 0.4, ease: easeInOut } }}
                >
+
+                  <div
+                     className='col-lg-5 card'
+                     style={{ backgroundImage: `url(${plantDemo})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
+                  >
+                  </div>
                   <div className='col-lg-5 card align-items-center justify-content-center gap-2 p-4 bg-transparent border-0'>
                      <h3>Plant Diary</h3>
                      <p className='fs-4'>Plant Diary is an Express-based project with crud features fulfiled by AJAX and JQuery. It is designed for plant enthusiasts and nature lovers, start to record the growth of your plants with Plant Diary!</p>
@@ -57,21 +91,12 @@ export default function Projects({ projectTargetRef }) {
                         </a>
                      </div>
                   </div>
-                  <div
-                     className='col-lg-5 card'
-                     style={{ backgroundImage: `url(${plantDemo})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
-                  >
-                  </div>
                </motion.div>
                <motion.div className='projectContainer row  d-flex justify-content-evenly  mt-5'
                   initial={{ translateY: -100, opacity: 0.1 }}
                   whileInView={{ translateY: 0, opacity: 1, transition: { duration: 0.4, ease: easeInOut } }}
                >
-                  <div
-                     className='col-lg-5 card'
-                     style={{ backgroundImage: `url(${rouletteDemo})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
-                  >
-                  </div>
+                 
                   <div className='col-lg-5 card align-items-center justify-content-center gap-2 p-4 bg-transparent border-0'>
                      <h3>Roulette</h3>
                      <p className='fs-4'>Roulette is a game developed with React and ChartJS, simulating the real-world rules and interfaces. Don't hesitate to play this exciting game and try to survive over ten minutes.</p>
@@ -83,6 +108,11 @@ export default function Projects({ projectTargetRef }) {
                            <button className='projectButton'>Details</button>
                         </a>
                      </div>
+                  </div>
+                  <div
+                     className='col-lg-5 card'
+                     style={{ backgroundImage: `url(${rouletteDemo})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
+                  >
                   </div>
                </motion.div>
             </div>
