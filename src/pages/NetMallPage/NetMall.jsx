@@ -20,7 +20,7 @@ function NetMall({ isGreeting, greetingRef }) {
                         <SplitText copy="Fantastic shopping experience" role="heading" isGreeting={isGreeting} />
                     </h1>
                 </div>
-                <img src={netmall} alt="NetMall" style={{ minHeight: '600px' }}></img>
+                <img className='rouletteImg' src={netmall} alt="TravelBlog" style={{ height: '100%' }}></img>
                 <h2>Introduction</h2>
                 <p className='fs-5'>Great online shopping app designed for shopaholics! Whether you're a buyer looking for the latest trends or a seller ready to showcase your products to the world, NetMall has you covered. Our intuitive interface makes browsing and purchasing products a breeze, and allow you to showcase your products in the best possible light, attracting customers and driving sales.,<br /><br /> 
 NetMall leverages cutting-edge technology, with Django Rest Framework and PostgreSQL powering our robust and scalable backend, ensuring seamless shopping experiences even during peak traffic. Coupled with Python's reliability, our platform delivers efficiency. On the frontend, React enables a sleek, responsive interface, ensuring an optimal shopping experience across devices, whether on your computer or mobile.
