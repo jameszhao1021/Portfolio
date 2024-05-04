@@ -31,10 +31,10 @@ export default function Contacts({ contactTargetRef }) {
                whileInView={{ rotateY: 0, transition: { duration: 0.7 } }}
             >Contacts</motion.h1>
          </div>
-         <p className=' fs-4 col-xl-6 justify-content-center'>
-            Send me an emial to discuss cool projects or potential job opportunities! I will get back to you ASAP.
+         <p className=' fs-4 col-lg-9 justify-content-center'>
+            Send me an emial to discuss cool projects or potential job opportunities! I will get back to you as soon as possible.
          </p>
-         <form className='col-xl-6 col-lg-6 shadow p-4 mb-5 d-flex flex-column gap-2' ref={form} onSubmit={sendEmail}>
+         <form className='col-lg-9 col-12 shadow p-4 mb-5 d-flex flex-column gap-2' ref={form} onSubmit={sendEmail}>
             <div className="mb-3">
                <label htmlFor="user_name" className="form-label">Name</label>
                <input type="text" className="form-control" id="user_name" name="user_name" required />

@@ -1,11 +1,11 @@
-
+/* 
 @media (min-width: 2600px) {
     .outerContainer {
         width: 60%;
     }
 }
 
-
+/* 
 @media (max-width: 2600px) {
     .outerContainer {
         width: 65%;
@@ -32,4 +32,4 @@
         width: 100% ;
     }
 } 
-
+ */

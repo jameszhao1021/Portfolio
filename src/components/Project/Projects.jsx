@@ -8,15 +8,15 @@ import '../Project/Projects.css'
 export default function Projects({ projectTargetRef }) {
 
    return (
-      <div className="container-fluid d-flex flex-column justify-content-evenly align-items-center skills">
+      <div className=" d-flex flex-column justify-content-evenly align-items-center skills">
          <div ref={projectTargetRef} className='row col-xl-12 text-center justify-content-evenly gap-4 '  >
             <motion.h1
                className="fs-2 mt-5 py-5"
                initial={{ rotateY: -180 }}
                whileInView={{ rotateY: 0, transition: { duration: 0.7 } }}
             >PROJECTS</motion.h1>
-            <div className=' col-xl-10'>
-            <motion.div className='projectContainer row  d-flex justify-content-evenly mt-2'
+            <div className=' col-12'>
+            <motion.div className='projectContainer row  d-flex justify-content-around mt-2'
                   initial={{ translateY: -100, opacity: 0.1 }}
                   whileInView={{ translateY: 0, opacity: 1, transition: { duration: 0.4, ease: easeInOut } }}
                >
@@ -42,7 +42,7 @@ export default function Projects({ projectTargetRef }) {
                      </div>
                   </div>
                </motion.div>
-               <motion.div className='projectContainer row  d-flex justify-content-evenly mt-2'
+               <motion.div className='projectContainer row  d-flex justify-content-around mt-2'
                   initial={{ translateY: -100, opacity: 0.1 }}
                   whileInView={{ translateY: 0, opacity: 1, transition: { duration: 0.4, ease: easeInOut } }}
                >
@@ -69,7 +69,7 @@ export default function Projects({ projectTargetRef }) {
                   >
                   </div>
                </motion.div>
-               <motion.div className='projectContainer row  d-flex justify-content-evenly  mt-5'
+               <motion.div className='projectContainer row  d-flex justify-content-around  mt-5'
                   initial={{ translateY: -100, opacity: 0.1 }}
                   whileInView={{ translateY: 0, opacity: 1, transition: { duration: 0.4, ease: easeInOut } }}
                >
@@ -92,7 +92,7 @@ export default function Projects({ projectTargetRef }) {
                      </div>
                   </div>
                </motion.div>
-               <motion.div className='projectContainer row  d-flex justify-content-evenly  mt-5'
+               <motion.div className='projectContainer row  d-flex justify-content-around  mt-5'
                   initial={{ translateY: -100, opacity: 0.1 }}
                   whileInView={{ translateY: 0, opacity: 1, transition: { duration: 0.4, ease: easeInOut } }}
                >

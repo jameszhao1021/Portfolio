@@ -4,14 +4,14 @@
 
 @media (min-width: 2600px) {
     .col-xl-2.col-lg-3{
-        font-size:30px;
+        font-size:25px;
         
     }
   }
 @media (max-width: 2600px) {
     .col-xl-2.col-lg-3{
         width:17%;
-        font-size:27px;
+        font-size:25px;
     }
   }
   @media (max-width: 1900px) {

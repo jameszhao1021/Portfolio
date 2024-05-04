@@ -16,7 +16,7 @@ button.projectButton {
   }
 
 
-@media (min-width: 1600px) {
+/* @media (min-width: 1600px) {
   .projectContainer {
       min-height: 400px;
   }
@@ -32,4 +32,4 @@ button.projectButton {
   .projectContainer {
       min-height: 500px;
   }
-}
+} */
