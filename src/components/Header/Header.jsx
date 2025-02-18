@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Logo/Logo";
 import "../Header/Header.css"
-import resume from '../../assets/files/Resume.pdf'
+import resume from '../../assets/files/Resume_James Zhao.pdf'
 
 const Header = ({aboutTargetRef, projectTargetRef, contactTargetRef}) => {
   const handleSkillScrollDown = () => {
@@ -31,22 +31,22 @@ const Header = ({aboutTargetRef, projectTargetRef, contactTargetRef}) => {
         <div className=" collapse navbar-collapse fs-5" id="myNavbar">
           <div className="ms-auto"> {/* Apply ms-auto class to align content to the right */}
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item ">
+              <li className="nav-item">
                 <a className="nav-link float-end" href="/">Home</a>
               </li>
-              <li className="nav-item ">
+              <li className="nav-item">
                 <a className="nav-link float-end" onClick={handleSkillScrollDown} style={{ cursor: 'pointer' }}>About</a>
 
               </li>
-              <li className="nav-item ">
+              <li className="nav-item">
                 <a className="nav-link float-end" onClick={handleProjectScrollDown} style={{ cursor: 'pointer' }}>Projects</a>
               </li>
 
-              <li className="nav-item ">
+              <li className="nav-item">
                 <a className="nav-link float-end" onClick={handleContactScrollDown} style={{ cursor: 'pointer' }}>Contact</a>
               </li>
-              <li className="nav-item ">
-                <a className="nav-link float-end" href={resume} target="_blank"><span className="fa fa-sign-in-alt"></span> Resume</a>
+              <li className="nav-item" >
+                <a className="nav-link float-end" href={resume} target="_blank" ><span className="fa fa-sign-in-alt" ></span> Resume</a>
               </li>
             </ul>
           </div>

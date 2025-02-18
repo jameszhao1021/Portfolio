@@ -3,6 +3,8 @@ import profileImg from "../../assets/images/profileImg.png"
 import Greeting from "../Greeting/Greeting";
 import { motion, useInView } from 'framer-motion'
 import { useState, useRef, useEffect } from "react";
+import resume from '../../assets/files/Resume_James Zhao.pdf'
+
 
 function Profile({aboutTargetRef, isGreeting, greetingRef}) {
 
@@ -32,8 +34,13 @@ function Profile({aboutTargetRef, isGreeting, greetingRef}) {
       <div className="container-fluid d-flex justify-content-center">
         <div className='row col-lg-6 text-start' ref={greetingRef}>
           <Greeting isGreeting={isGreeting} />
+          <a className='mt-3'href={resume}>
+         <button className='resumeButton'>Resume</button>
+         </a>
         </div>
+        
       </div>
+      
       <motion.div
         className="switch"
         data-ison={isOn}
@@ -44,9 +51,14 @@ function Profile({aboutTargetRef, isGreeting, greetingRef}) {
 
         whileInView={{ scale: [0.9, 1, 0.9] }}
         whileHover={{ scale: 1, transition: { duration: 0.2 } }}
+        
       >
+        
         <motion.div className="handle" layout transition={{ type: "spring", stiffness: 700, damping: 30 }} style={{ top: isOn ? 'auto' : 0, bottom: isOn ? 0 : 'auto' }} />
+        
       </motion.div>
+
+      
     </div>
   );
 }

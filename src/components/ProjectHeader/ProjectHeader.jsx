@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../Logo/Logo";
-import resume from '../../assets/files/Resume.pdf'
+import resume from '../../assets/files/Resume_James Zhao.pdf'
 import "../ProjectHeader/ProjectHeader.css"
 
 function ProjectHeader(){
