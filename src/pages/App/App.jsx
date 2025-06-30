@@ -29,9 +29,6 @@ function App() {
     setIsGreeting(isGreetingInView);
   }, [isGreetingInView]);
 
-  // if (!isHomeRoute) {
-  //   return <Navigate to="/home" />;
-  // }
 
   return (
     <>
@@ -49,20 +46,6 @@ function App() {
       </Routes>
       <Footer />
     </>
-
-    // <div className='appContainer'>
-   
-        // <Layout >
-        //   <Routes>
-        //     <Route path='/' element={<Home aboutTargetRef={aboutTargetRef} projectTargetRef={projectTargetRef} contactTargetRef={contactTargetRef} isGreeting={isGreeting} greetingRef={greetingRef} />} />
-        //     <Route path='/netmall' element={<NetMall isGreeting={isGreeting} greetingRef={greetingRef} />} />
-        //     <Route path='/travelblog' element={<TravelBlog isGreeting={isGreeting} greetingRef={greetingRef} />} />
-        //     <Route path='/roulette' element={<Roulette isGreeting={isGreeting} greetingRef={greetingRef} />} />
-        //     <Route path='/plantdiary' element={<PlantDiary isGreeting={isGreeting} greetingRef={greetingRef} />} />
-        //   </Routes>
-        // </Layout>
-   
-    // </div>
   );
 }
 

@@ -54,7 +54,7 @@ export default function Projects({ projectTargetRef }) {
                      <h3>Travel WikkiMedia</h3>
                      <p className='fs-4'>Travel WikkiMedia is a MERN stack project, allowing users to create travel blogs and pictures, as well as view others blogs and leave comments. Explore the websites and get your travel inspirations!</p>
                      <div className='d-flex gap-4'>
-                        <a href='https://travel-wikkimedia-e201bd728fb6.herokuapp.com/' target='_blank'>
+                        <a href='https://travelwikkimedia-3f4d63081406.herokuapp.com/' target='_blank'>
                            <button className='projectButton liveShow'>Live Show</button>
                         </a>
                         <a href="/travelblog">

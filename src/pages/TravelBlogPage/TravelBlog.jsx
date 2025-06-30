@@ -47,7 +47,7 @@ function TravelBlog({ isGreeting, greetingRef }) {
                     <a href='https://github.com/jameszhao1021/travel-blog' target='_blank'>
                     <button className='btn btn-secondary'>GitHub</button>
                     </a>
-                    <a href='https://travel-wikkimedia-e201bd728fb6.herokuapp.com/' target='_blank'>
+                    <a href='https://travelwikkimedia-3f4d63081406.herokuapp.com/' target='_blank'>
                     <button className='btn btn-secondary'>Live Show</button>
                     </a>
                     <a href="/">  
