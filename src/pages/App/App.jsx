@@ -11,6 +11,7 @@ import Header from "../../components/Header/Header";
 import Footer from '../../components/Footer/Footer';
 import ProjectHeader from '../../components/ProjectHeader/ProjectHeader';
 import { useInView } from 'framer-motion'
+import Luxestays from '../LuxestaysPage/Luxestays';
 
 
 function App() {
@@ -38,11 +39,12 @@ function App() {
         <ProjectHeader />
       )}
       <Routes>
-        <Route path='/' element={<Home aboutTargetRef={aboutTargetRef} projectTargetRef={projectTargetRef} contactTargetRef={contactTargetRef} isGreeting={isGreeting} greetingRef={greetingRef}/>} />
+        <Route path='/' element={<Home aboutTargetRef={aboutTargetRef} projectTargetRef={projectTargetRef} contactTargetRef={contactTargetRef} isGreeting={isGreeting} greetingRef={greetingRef} />} />
+        <Route path='/luxestays' element={<Luxestays isGreeting={isGreeting} greetingRef={greetingRef} />} />
         <Route path='/netmall' element={<NetMall isGreeting={isGreeting} greetingRef={greetingRef} />} />
-        <Route path='/travelblog' element={<TravelBlog isGreeting={isGreeting} greetingRef={greetingRef}/>} />
-        <Route path='/roulette' element={<Roulette isGreeting={isGreeting} greetingRef={greetingRef}/>} />
-        <Route path='/plantdiary' element={<PlantDiary isGreeting={isGreeting} greetingRef={greetingRef}/>} />
+        <Route path='/travelblog' element={<TravelBlog isGreeting={isGreeting} greetingRef={greetingRef} />} />
+        <Route path='/roulette' element={<Roulette isGreeting={isGreeting} greetingRef={greetingRef} />} />
+        <Route path='/plantdiary' element={<PlantDiary isGreeting={isGreeting} greetingRef={greetingRef} />} />
       </Routes>
       <Footer />
     </>

@@ -3,6 +3,7 @@ import travelDemo from '../../assets/images/travelDemo.gif'
 import rouletteDemo from '../../assets/images/rouletteDemo.gif'
 import plantDemo from '../../assets/images/plantDemo.gif'
 import netmallDemon from '../../assets/images/netmallDemo.gif'
+import luxestaysDemo from '../../assets/images/luxestaysDemo.gif'
 import '../Project/Projects.css'
 
 export default function Projects({ projectTargetRef }) {
@@ -22,9 +23,31 @@ export default function Projects({ projectTargetRef }) {
                >
                   <div
                      className='col-lg-5 card'
-                     style={{ backgroundImage: `url(${netmallDemon})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
+                     style={{ backgroundImage: `url(${luxestaysDemo})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
                   >
                   </div>
+                  <div
+                     className='col-lg-5 card align-items-center justify-content-center gap-2 p-4 bg-transparent border-0'
+
+                  >
+                     <h3>Luxestays</h3>
+                     <p className='fs-4'>Luxestays is a villa booking web app built with .NET Clean Architecture. Users can sign up as guests or admins to book villas or manage listings, and admins can access a data dashboard for insights and control.</p>
+                     <div className='d-flex gap-4'>
+                        <a href='https://luxestays-fabdb5ce07b9.herokuapp.com//' target='_blank'>
+                           <button className='projectButton liveShow'>Live Show</button>
+                        </a>
+                        <a href="/luxestays">
+                           <button className='projectButton'>Details</button>
+                        </a>
+
+                     </div>
+                  </div>
+               </motion.div>
+            <motion.div className='projectContainer row  d-flex justify-content-around mt-2'
+                  initial={{ translateY: -100, opacity: 0.1 }}
+                  whileInView={{ translateY: 0, opacity: 1, transition: { duration: 0.4, ease: easeInOut } }}
+               >
+
                   <div
                      className='col-lg-5 card align-items-center justify-content-center gap-2 p-4 bg-transparent border-0'
 
@@ -41,12 +64,21 @@ export default function Projects({ projectTargetRef }) {
 
                      </div>
                   </div>
+                  <div
+                     className='col-lg-5 card'
+                     style={{ backgroundImage: `url(${netmallDemon})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
+                  >
+                  </div>
                </motion.div>
                <motion.div className='projectContainer row  d-flex justify-content-around mt-2'
                   initial={{ translateY: -100, opacity: 0.1 }}
                   whileInView={{ translateY: 0, opacity: 1, transition: { duration: 0.4, ease: easeInOut } }}
                >
-                 
+                  <div
+                     className='col-lg-5 card'
+                     style={{ backgroundImage: `url(${travelDemo})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
+                  >
+                  </div>
                   <div
                      className='col-lg-5 card align-items-center justify-content-center gap-2 p-4 bg-transparent border-0'
 
@@ -63,22 +95,14 @@ export default function Projects({ projectTargetRef }) {
 
                      </div>
                   </div>
-                  <div
-                     className='col-lg-5 card'
-                     style={{ backgroundImage: `url(${travelDemo})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
-                  >
-                  </div>
+                 
                </motion.div>
                <motion.div className='projectContainer row  d-flex justify-content-around  mt-5'
                   initial={{ translateY: -100, opacity: 0.1 }}
                   whileInView={{ translateY: 0, opacity: 1, transition: { duration: 0.4, ease: easeInOut } }}
                >
 
-                  <div
-                     className='col-lg-5 card'
-                     style={{ backgroundImage: `url(${plantDemo})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
-                  >
-                  </div>
+                  
                   <div className='col-lg-5 card align-items-center justify-content-center gap-2 p-4 bg-transparent border-0'>
                      <h3>Plant Diary</h3>
                      <p className='fs-4'>Plant Diary is an Express-based project with crud features fulfiled by AJAX and JQuery. It is designed for plant enthusiasts and nature lovers, start to record the growth of your plants with Plant Diary!</p>
@@ -91,12 +115,21 @@ export default function Projects({ projectTargetRef }) {
                         </a>
                      </div>
                   </div>
+                  <div
+                     className='col-lg-5 card'
+                     style={{ backgroundImage: `url(${plantDemo})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
+                  >
+                  </div>
                </motion.div>
                <motion.div className='projectContainer row  d-flex justify-content-around  mt-5'
                   initial={{ translateY: -100, opacity: 0.1 }}
                   whileInView={{ translateY: 0, opacity: 1, transition: { duration: 0.4, ease: easeInOut } }}
                >
-                 
+                  <div
+                     className='col-lg-5 card'
+                     style={{ backgroundImage: `url(${rouletteDemo})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
+                  >
+                  </div>
                   <div className='col-lg-5 card align-items-center justify-content-center gap-2 p-4 bg-transparent border-0'>
                      <h3>Roulette</h3>
                      <p className='fs-4'>Roulette is a game developed with React and ChartJS, simulating the real-world rules and interfaces. Don't hesitate to play this exciting game and try to survive over ten minutes.</p>
@@ -109,11 +142,7 @@ export default function Projects({ projectTargetRef }) {
                         </a>
                      </div>
                   </div>
-                  <div
-                     className='col-lg-5 card'
-                     style={{ backgroundImage: `url(${rouletteDemo})`, backgroundSize: 'cover', backgroundPosition: 'center', minHeight: '300px' }}
-                  >
-                  </div>
+                 
                </motion.div>
             </div>
          </div>
